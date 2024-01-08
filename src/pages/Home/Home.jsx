@@ -74,7 +74,8 @@ const Home = () => {
             <>
 
                 <div className='flex justify-between items-center md:px-4 px-1 my-8 gap-x-3 '>
-                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" /></div></Link>
+                    {/* <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" /></div></Link> */}
+                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://i.ibb.co/x3kTCcq/imagevisa-1.png" alt="" /></div></Link>
                     <section className='flex  items-center'>
                         <div><input value={searchId} onChange={(e) => setSearchId(e.target.value)} placeholder='Search IRCC' className="w-full bg-slate-50  border-[1.8px] border-gray-800 h-[2em] pl-[1px] text-[12px] md:text-[1em] md:h-[2em] text-text placeholder-text-sm bg-transparent outline-none p-2" type="text" /></div>
                         <div onClick={handleSearch} className='-ml-6 bg-slate-700 md:py-[6.5px] py-[3px]  px-[6.5px] cursor-pointer hover:scale-105 duration-300'> <MaterialSymbolsSearchCheck></MaterialSymbolsSearchCheck></div>
@@ -374,7 +375,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </li>
-                                    <li className="group p-3 cursor-pointer hover:bg-white w-full text-[14px] hover:text-black py-2]">
+                                    {/* <li className="group p-3 cursor-pointer hover:bg-white w-full text-[14px] hover:text-black py-2]">
                                         <span className="md:text-[20px]  text-[12.22px]">Transport and infrastructure</span>
                                         <div className="bg-white min-w-max text-black absolute top-0 left-[100%] p-3 justify-between items-center gap-12 opacity-0 hidden group-hover:opacity-100 w-full shadow-2xl z-10 group-hover:flex transition duration-200 border">
                                             <div className="flex flex-col gap-4">
@@ -474,7 +475,7 @@ const Home = () => {
                                                 <a href="/" className="cursor-pointer hover:underline">Live view of northern lights cam</a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -483,16 +484,17 @@ const Home = () => {
             </>
             <div className='md:px-[60px] px-2 mt-7 text-[13px]'>
                 <div className=' flex md:gap-x-4 gap-x-1'>
-                    <p>Canada.ca &gt;</p>
+                    {/* <p>Canada.ca &gt;</p>
                     <p className='underline'>Immigration and citizenship &gt;</p>
-                    <p> My application</p>
+                    <p> My application</p> */}
+                    <p>.</p>
                 </div>
 
                 <p className='text-[#333333] font-semibold pt-7 text-[39px]'>How to check your application status</p>
                 <div className='py-1'><hr className='border border-red-900  border-t-0' /></div>
                 <div className=' lg:flex md:flex justify-between items-center px-2'>
                     <p className='text-[#333333] text-[23px]'>Select your application type to find out how to check your application status.</p>
-                    <button className='px-[16px] py-[10px] rounded-md bg-red-700 text-white'>Need Help?</button>
+                    {/* <button className='px-[16px] py-[10px] rounded-md bg-red-700 text-white'>Need Help?</button> */}
                 </div>
             </div>
             <div className='mt-[1.5em] md:px-[60px] mb-7'>
@@ -576,10 +578,10 @@ const Home = () => {
             {/* <img className='mt-4 shadow-lg  w-full cursor-pointer' src={moduleName2} alt="" /> */}
 
             <footer className='mt-[70px]'>
-                <div className='flex justify-between gap-x-[7px] items-center lg:px-[54px] px-5 pb-[43px]'>
+                {/* <div className='flex justify-between gap-x-[7px] items-center lg:px-[54px] px-5 pb-[43px]'>
                     <p>Date modified: {data[0]?.date}</p>
                     <button className='bg-[#eaebed] px-[55px] py-[10px] rounded-[4px]'>Share this page</button>
-                </div>
+                </div> */}
                 <div className='bg-[#33465c] py-[24px] lg:px-[54px] px-5'>
                     <p className='text-[27px]     text-white'>Immigration and citizenship</p>
                     <div className='flex gap-x-[398px] pt-[14px] '>
@@ -588,36 +590,36 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='bg-[#26374a] lg:px-[54px] px-5 py-[20px]'>
-                    <p className='text-[27px]     text-white'>Government of Canada</p>
+                    <p className='text-[27px]     text-white'>Chaeck Your Visa</p>
                     <section className='lg:flex gap-x-[230px]'>
                         <div className='flex flex-col gap-y-3'>
                             <p className='text-[16px] text-white'>All contacts</p>
                             <p className='text-[16px] text-white'>Jobs</p>
                             <p className='text-[16px] text-white'>Immigration and citizenship</p>
-                            <p className='text-[16px] text-white'>Travel and tourism</p>
+                            {/* <p className='text-[16px] text-white'>Travel and tourism</p>
                             <p className='text-[16px] text-white'>Business</p>
                             <p className='text-[16px] text-white'>Benefits</p>
-                            <p className='text-[16px] text-white'>Health</p>
+                            <p className='text-[16px] text-white'>Health</p> */}
 
                         </div>
                         <div className='flex flex-col gap-y-3'>
                             <p className='text-[16px] text-white'>Departments and agencies</p>
                             <p className='text-[16px] text-white'>Taxes</p>
                             <p className='text-[16px] text-white'>Environment and natural resources</p>
-                            <p className='text-[16px] text-white'>National security and defence</p>
+                            {/* <p className='text-[16px] text-white'>National security and defence</p>
                             <p className='text-[16px] text-white'>Culture, history and sport</p>
                             <p className='text-[16px] text-white'>Policing, justice and emergencies</p>
-                            <p className='text-[16px] text-white'>Transport and infrastructure</p>
+                            <p className='text-[16px] text-white'>Transport and infrastructure</p> */}
 
                         </div>
                         <div className='flex flex-col gap-y-3'>
                             <p className='text-[16px] text-white'>About government</p>
                             <p className='text-[16px] text-white'>Canada and the world</p>
                             <p className='text-[16px] text-white'>Money and finance</p>
-                            <p className='text-[16px] text-white'>Science and innovation</p>
+                            {/* <p className='text-[16px] text-white'>Science and innovation</p>
                             <p className='text-[16px] text-white'>Indigenous peoples</p>
                             <p className='text-[16px] text-white'>Veterans and military</p>
-                            <p className='text-[16px] text-white'>Youth</p>
+                            <p className='text-[16px] text-white'>Youth</p> */}
 
                         </div>
                     </section>
@@ -626,12 +628,12 @@ const Home = () => {
                     <div className='flex gap-x-[64px] text-[15px]'>
                         <p>Social media</p>
                         <p>Mobile applications</p>
-                        <p>About Canada.ca</p>
+                        {/* <p>About Canada.ca</p> */}
                         <p>Terms and conditions</p>
                         <p>Privacy</p>
                     </div>
                     <div onClick={handle_logout} className='text-[64px] cursor-pointer font-semibold font-serif'>
-                        Canada
+                        VISA
                     </div>
                 </div>
                 <div>

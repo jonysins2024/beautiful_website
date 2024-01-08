@@ -34,7 +34,9 @@ const Header = () => {
             <>
 
                 <div className='flex justify-between items-center md:px-4 px-1 my-8 gap-x-3 '>
-                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" /></div></Link>
+                    {/* <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" /></div></Link> */}
+                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://i.ibb.co/x3kTCcq/imagevisa-1.png" alt="" /></div></Link>
+
                     <section className='flex  items-center'>
                         <div><input placeholder='Search IRCC' className="w-full bg-slate-50  border-[1.8px] border-gray-800 h-[2em] pl-[1px] text-[12px] md:text-[1em] md:h-[2em] text-text placeholder-text-sm bg-transparent outline-none p-2" type="text" /></div>
                         <div className='-ml-6 bg-slate-700 md:py-[6.5px] py-[3px]  px-[6.5px] cursor-pointer hover:scale-105 duration-300'> <MaterialSymbolsSearchCheck></MaterialSymbolsSearchCheck></div>
@@ -334,7 +336,7 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </li>
-                                    <li className="group p-3 cursor-pointer hover:bg-white w-full text-[14px] hover:text-black py-2]">
+                                    {/* <li className="group p-3 cursor-pointer hover:bg-white w-full text-[14px] hover:text-black py-2]">
                                         <span className="md:text-[20px]  text-[12.22px]">Transport and infrastructure</span>
                                         <div className="bg-white min-w-max text-black absolute top-0 left-[100%] p-3 justify-between items-center gap-12 opacity-0 hidden group-hover:opacity-100 w-full shadow-2xl z-10 group-hover:flex transition duration-200 border">
                                             <div className="flex flex-col gap-4">
@@ -434,7 +436,7 @@ const Header = () => {
                                                 <a href="/" className="cursor-pointer hover:underline">Live view of northern lights cam</a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
