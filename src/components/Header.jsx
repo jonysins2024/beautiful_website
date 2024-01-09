@@ -35,7 +35,7 @@ const Header = () => {
 
                 <div className='flex justify-between items-center md:px-4 px-1 my-8 gap-x-3 '>
                     {/* <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" /></div></Link> */}
-                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://i.ibb.co/x3kTCcq/imagevisa-1.png" alt="" /></div></Link>
+                    <Link to='/'><div className=''><img className='md:w-[450px] w-[450px]' src="https://i.ibb.co/TqDgBNZ/imagevisa-2.png" alt="" /></div></Link>
 
                     <section className='flex  items-center'>
                         <div><input placeholder='Search IRCC' className="w-full bg-slate-50  border-[1.8px] border-gray-800 h-[2em] pl-[1px] text-[12px] md:text-[1em] md:h-[2em] text-text placeholder-text-sm bg-transparent outline-none p-2" type="text" /></div>
