@@ -21,6 +21,7 @@ import Update_User from "../pages/PrivateRoutes/AdminRoutes/Update_User";
 import Update_A_User from "../components/Update_A_User";
 import Admin_Control from "../components/Admin_Control/Admin_Control";
 import Control_Post from "../components/Control_Post/Control_Post";
+import Not_Found_Website from "../components/Not_Found_Website/Not_Found_Website";
 
 export const router = createBrowserRouter([
   {
@@ -28,9 +29,13 @@ export const router = createBrowserRouter([
     element: <Main />,
     // errorElement: <NotFoundPage />,
     children: [
+      // {
+      //   path: '/',
+      //   element: <Home />,
+      // },
       {
         path: '/',
-        element: <Home />,
+        element: <Not_Found_Website></Not_Found_Website>,
       },
       {
         path: "/Work_Permit",
