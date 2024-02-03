@@ -10,7 +10,7 @@ const Error = () => {
       {/* <img src="https://i.ibb.co/bPb5sNq/image-4.png" alt="" /> */}
 
       {/* CODING ERROR IMG */}
-      <img src="https://i.ibb.co/PZ68kgn/image-6.png" alt="" />
+      <img className='cursor-none' src="https://i.ibb.co/PZ68kgn/image-6.png" alt="" />
     </div>
   )
 }
