@@ -27,7 +27,8 @@ import Error from "../components/Error/Error";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    // element: <Main />,
+    element: <div className="bg-black" />,
     // errorElement: <NotFoundPage />,
     children: [
       {
