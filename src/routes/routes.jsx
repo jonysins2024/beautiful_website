@@ -28,13 +28,12 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
-    element: <Main />,
     // errorElement: <NotFoundPage />,
     children: [
-      // {
-      //   path: '/',
-      //   element: <Home />,
-      // },
+      {
+        path: '/',
+        element: <Home />,
+      },
       // {
       //   path: '/',
       //   element: <Not_Found_Website></Not_Found_Website>,
