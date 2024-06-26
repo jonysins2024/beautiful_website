@@ -47,7 +47,7 @@ const Update_A_User = () => {
 
         // Update the data with the uploaded image URL
         data.Doc_1_PC = response.data.data.url;
-        // console.log(response);
+        // console.log(respons7e);
       } else {
 
         data.Doc_1_PC = Loaded_User_Data?.Doc_1_PC || "";
